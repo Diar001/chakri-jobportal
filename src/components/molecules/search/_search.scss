@@ -1,0 +1,61 @@
+.search {
+    
+    &__container {
+        display: grid;
+        grid-template-rows: repeat(2, 100px);
+        justify-content: center;
+
+        margin-top: 13.1rem;
+    }
+
+
+    .heading-primary {
+        display: grid;
+        grid-template-rows: repeat(2, 100px);
+
+        margin-top: -3rem;
+        
+        word-spacing: .2rem;
+        line-height: 3.4rem;
+
+    &--main {
+        font-size: 2.6rem;
+        font-weight: 300;
+        color: $color-white;
+
+        text-align: center;
+    }
+
+    &--sub {
+        font-size: 7.5rem;
+        color: $color-white;
+    }
+ }
+
+  &__form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-self: center;
+      gap: 3.3rem;
+
+      margin-top: 7rem;
+
+      color: $color-white;
+      font-size: 2.6rem;
+      font-weight: 300;
+      
+    &--illustration {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+  }
+
+  .illu__img {
+        width: 60px;
+        height: 60px;
+
+        margin-right: 2rem;
+  }
+}

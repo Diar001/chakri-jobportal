@@ -1,0 +1,96 @@
+.section-about {
+  padding: 2rem 0;
+  background-color: #FAFAFA;
+
+  .about-grid {
+    display: grid;
+    align-items: center;
+    column-gap: 6.4rem;
+    row-gap: 6rem;
+    grid-template-columns: repeat(2, 1fr);
+
+    margin-top: 15rem;
+  }
+
+  * {
+    margin-bottom: 3.2rem;
+  }
+
+  & p {
+    font-size: 2.3rem;
+  }
+
+  & h2 {
+    margin-top: 15rem;
+    text-align: center;
+
+    font-size: 5.5rem;
+
+    color: $color-black;
+  }
+
+  .heading-secondary {
+    margin-top: 5rem;
+
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 300;
+
+    color: #8e8e8e;
+    opacity: 6;
+    line-height: 4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  .step-number {
+    color: $color-line;
+    font-size: 8rem;
+    font-weight: 500;
+
+    transform: translateY(2rem);
+
+    &--right {
+      font-size: 8rem;
+    }
+  }
+
+  .step-text-box {
+    &-2 {
+      margin-left: 21rem;
+    }
+  }
+
+  .step-img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step-img {
+    margin-left: 20rem;
+    width: 65rem;
+    height: 50rem;
+
+    &-2 {
+      width: 65rem;
+      height: 50rem;
+      margin-right: 20rem;
+    }
+  }
+
+  .step-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .step-description {
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    color: $color-tertiary;
+  }
+}

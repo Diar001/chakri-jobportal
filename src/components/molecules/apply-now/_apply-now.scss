@@ -1,0 +1,39 @@
+.apply {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem 22rem;
+
+  width: 130rem;
+  height: 35rem;
+
+  background-color: $color-secondary;
+  border-radius: 5px;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4.3rem;
+
+    padding: 7rem 13rem;
+
+    &--main {
+      font-size: 6rem;
+      color: $color-white;
+      font-weight: 300;
+    }
+
+    &--sub {
+      font-size: 2rem;
+      color: $color-white;
+      font-weight: 300;
+
+      line-height: 4.5rem;
+    }
+  }
+
+  &-button {
+    position: absolute;
+    top: 574rem;
+    right: 42rem;
+  }
+}

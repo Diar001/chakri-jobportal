@@ -1,0 +1,75 @@
+.btn {
+  font-family: $font-primary;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  padding: 2.5rem 4.5rem;
+
+  border: none;
+  outline: none;
+
+  background-color: $color-secondary;
+  color: $color-white;
+
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    filter: brightness(0.93);
+  }
+
+  &--rounded {
+    border-radius: 1rem;
+    font-size: 2rem;
+  }
+
+  &--squared {
+    border-radius: 5px;
+  }
+
+  &--transparent {
+    position: absolute;
+    top: 4.8rem;
+
+    margin-left: 9rem;
+    
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    text-decoration: none;
+    padding: 1.8rem 4.3rem;
+    border-radius: 1rem;
+    border: 1px solid $color-white;
+
+    color: $color-white;
+    background-color: transparent;
+
+    &:hover {
+      color: $color-black;
+      background-color: $color-white;
+       transition: all .3s ease-in-out;
+    }
+  }
+
+  &--cards {
+    padding: 2rem 3.5rem;
+
+    font-size: 2rem;
+    font-weight: 300;
+    border-radius: 13px;
+    box-shadow: 0 20px 50px rgba($color-black, .1);
+  }
+
+  &--apply {
+    width: 22rem;
+    height: 8rem;
+
+    font-size: 2.3rem;
+    font-weight: 200;
+
+    color: $color-secondary;
+    background-color: $color-white;
+    border-radius: 13px;
+  }
+
+}

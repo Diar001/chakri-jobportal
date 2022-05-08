@@ -1,0 +1,22 @@
+.heading {
+    font-family: $font-primary;
+    text-color: $color-black;
+    display: flex;
+    align-items: center;
+
+    &--primary {
+        font-size: 5.2rem;
+        font-weight: bold;
+        color: $color-black;
+    }
+
+    &--secondary {
+        font-size: $font-secondary;
+        font-weight: 300;
+        line-height: 4rem;
+        color: $color-tertiary;
+    }
+
+
+
+}

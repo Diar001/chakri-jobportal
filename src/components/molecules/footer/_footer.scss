@@ -1,0 +1,39 @@
+.footer {
+    height: 60rem;
+    background-color: #FAFAFA;
+    padding-bottom: 5rem;
+
+    &-container {
+    display: flex;
+    flex-direction: row;
+
+        &__logo {
+            padding: 15rem;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 14rem;
+
+            margin-top: 13rem;
+
+            & li {
+                list-style-type: none;
+                line-height: 6rem;
+
+                font-size: 2.4rem;
+                font-weight: 200;
+                color: #8D8A99;
+
+            }
+         
+        }
+
+    }
+
+
+
+}
